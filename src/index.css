@@ -21,16 +21,24 @@ body {
   width: 100vw;
 }
 
-/* iOS-style frosted glass panel (sidebar over map). Higher specificity so prod bundle order cannot override. */
+/* Frosted glass: blur on ::before so overflow-hidden on the aside doesn't kill backdrop-filter (e.g. in prod). Do not set position here — keep Tailwind's absolute bottom-2 left-2. */
 aside.panel.glass-panel {
-  background: rgba(255, 255, 255, 0.08) !important;
-  backdrop-filter: saturate(180%) blur(24px);
-  -webkit-backdrop-filter: saturate(180%) blur(24px);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
-
+aside.panel.glass-panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: saturate(180%) blur(24px);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
+  border-radius: inherit;
+}
+.dark aside.panel.glass-panel::before {
+  background: rgba(30, 41, 59, 0.65);
+}
 .dark aside.panel.glass-panel {
-  background: rgba(30, 41, 59, 0.65) !important;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
