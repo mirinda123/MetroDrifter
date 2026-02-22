@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, GeoJSON, useMapEvents, useMap } from 'react-leaflet';
 import bbox from '@turf/bbox';
 import type { FeatureCollection } from 'geojson';
-import React from 'react';
 
 const OSM_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 const ORM_ATTRIBUTION = 'Data &copy; OSM | Style CC-BY-SA 2.0 <a href="http://www.openrailwaymap.org/">OpenRailwayMap</a>';
