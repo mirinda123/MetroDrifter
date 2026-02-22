@@ -1,9 +1,9 @@
+/* No overflow on .app so descendant backdrop-filter works in production (Vercel) */
 .app {
   position: relative;
   width: 100vw;
   height: 100vh;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 .panel {

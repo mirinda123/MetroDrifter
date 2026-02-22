@@ -152,7 +152,7 @@ export default function App() {
         />
       </main>
       <aside
-        className={`panel glass-panel absolute bottom-2 left-2 z-[1000] flex flex-col overflow-hidden border border-white/20 shadow-2xl w-80 min-w-[280px] rounded-2xl ${
+        className={`panel glass-panel fixed bottom-2 left-2 z-[1000] flex flex-col overflow-hidden border border-white/20 shadow-2xl w-80 min-w-[280px] rounded-2xl ${
           sidebarCollapsed ? 'rounded-b-2xl rounded-t-xl' : ''
         }`}
         style={{
