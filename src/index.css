@@ -21,16 +21,16 @@ body {
   width: 100vw;
 }
 
-/* iOS-style frosted glass panel (sidebar over map) */
-.glass-panel {
-  background: rgba(255, 255, 255, 0.08);
+/* iOS-style frosted glass panel (sidebar over map). Higher specificity so prod bundle order cannot override. */
+aside.panel.glass-panel {
+  background: rgba(255, 255, 255, 0.08) !important;
   backdrop-filter: saturate(180%) blur(24px);
   -webkit-backdrop-filter: saturate(180%) blur(24px);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.dark .glass-panel {
-  background: rgba(30, 41, 59, 0.65);
+.dark aside.panel.glass-panel {
+  background: rgba(30, 41, 59, 0.65) !important;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
