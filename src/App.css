@@ -1,0 +1,20 @@
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.panel {
+  width: 320px;
+  min-width: 280px;
+  padding: 0;
+  height: 100%;
+}
+
+.map-wrap {
+  position: absolute;
+  inset: 0;
+  min-height: 0;
+}

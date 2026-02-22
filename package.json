@@ -1,0 +1,44 @@
+{
+  "name": "MetroDrifter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "download-data": "tsx scripts/download-data.ts"
+  },
+  "dependencies": {
+    "@heroui/react": "beta",
+    "@heroui/styles": "beta",
+    "@turf/bbox": "^7.3.4",
+    "@turf/center": "^7.3.4",
+    "@turf/helpers": "^7.3.4",
+    "@turf/transform-scale": "^7.3.4",
+    "@turf/transform-translate": "^7.3.4",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-leaflet": "^5.0.0",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4",
+    "@types/geojson": "^7946.0.14",
+    "@types/leaflet": "^1.9.14",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.2",
+    "vite": "^7.3.1"
+  }
+}
