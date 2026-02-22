@@ -19,3 +19,19 @@
   min-height: 0;
   overflow: hidden;
 }
+
+/* Frosted glass: in App.css so it loads after Tailwind/Heroui and wins in production. !important forces blur. */
+aside.panel.glass-panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: saturate(180%) blur(24px) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(24px) !important;
+  border-radius: inherit;
+  transform: translateZ(0); /* force own layer so Chrome applies backdrop-filter in prod */
+}
+.dark aside.panel.glass-panel::before {
+  background: rgba(30, 41, 59, 0.65);
+}
