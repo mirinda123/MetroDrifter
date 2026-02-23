@@ -2,9 +2,8 @@
 <img src=".\img\logo_small.png"  />
 </div>
 
-
 <h1 align="center">
-  Metro Drift · MetroDrifter
+  MetroDrifter
 </h1>
 <p align="center">
   <a href="./README_EN.md">English</a> ·
@@ -13,6 +12,7 @@
 <p align="center">
   For rail enthusiasts
 </p>
+
 
 A web map app for rail fans: built on **OpenStreetMap**, it lets you search metro lines from around the world and scale them to any location on the globe—so you can compare the size and shape of different cities’ metro networks at a glance.
 
