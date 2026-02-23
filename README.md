@@ -1,5 +1,6 @@
+<div align=center>
 <img src=".\docs\img\logo_small.png"  />
-
+</div>
 
 <h1 align="center">
   地铁漂移 · MetroDrifter

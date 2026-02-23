@@ -1,4 +1,6 @@
-<img src="./img/logo_small.png"  />
+<div align=center>
+<img src=".\docs\img\logo_small.png"  />
+</div>
 
 <h1 align="center">
   メトロドリフト · MetroDrifter
