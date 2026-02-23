@@ -1,4 +1,4 @@
-<img src="./img/logo.png" style="zoom: 12%;" />
+<img src="./img/logo_small.png"  />
 
 <h1 align="center">
   メトロドリフト · MetroDrifter

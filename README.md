@@ -1,4 +1,4 @@
-<img src=".\docs\img\logo.png" style="zoom: 12%;" />
+<img src=".\docs\img\logo_small.png"  />
 
 
 <h1 align="center">
