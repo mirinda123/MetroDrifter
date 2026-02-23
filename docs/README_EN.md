@@ -1,6 +1,7 @@
 <div align=center>
-<img src=".\docs\img\logo_small.png"  />
+<img src=".\img\logo_small.png"  />
 </div>
+
 
 <h1 align="center">
   Metro Drift · MetroDrifter
