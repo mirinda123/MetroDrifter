@@ -11,6 +11,7 @@
 </p>
 <p align="center">
   鉄道ファン向け
+    <a><img src="https://img.shields.io/badge/Powered%20By-Metro-blue"/></a>
 </p>
 **OpenStreetMap** をベースにした Web 地図アプリです。世界各国の地下鉄・メトロ路線を検索し、任意の地点に等倍で重ねて表示できるため、都市ごとの路線の規模や形を比較できます。
 

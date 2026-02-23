@@ -1,7 +1,6 @@
 <div align=center>
 <img src=".\docs\img\logo_small.png"  />
 </div>
-
 <h1 align="center">
   地铁漂移 · MetroDrifter
 </h1>
@@ -10,18 +9,20 @@
   <a href="./docs/README_JP.md">日本語</a>
 </p>
 <p align="center">
-  为铁道迷设计
+  为铁道迷设计 
+    <a><img src="https://img.shields.io/badge/Powered%20By-Metro-blue"/></a>
 </p>
+
 
 面向铁路迷的前端地图应用🗺：基于 **OpenStreetMap**，可搜索各国地铁线路，并将线路等比例缩放后叠加到全球任意地点，方便对比不同城市地铁规模与形态
 
 **上海地铁4号线**：
 
-<img src=".\docs\img\shanghai_metro_4.png" style="zoom: 33%;" />
+<img src=".\docs\img\shanghai_metro_4.png"  />
 
 **漂移到东京的上海地铁四号线**：
 
-<img src=".\docs\img\shanghai_metro_4_in_tokyo.png" style="zoom:33%;" />
+<img src=".\docs\img\shanghai_metro_4_in_tokyo.png"  />
 
 ## 在线体验地址
 
