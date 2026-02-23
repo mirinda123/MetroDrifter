@@ -223,6 +223,7 @@ function getExistingCountryList(): Set<string> {
 }
 
 async function main(): Promise<void> {
+  console.log('Downloading map data via Overpass API');
   const onlyCountries: string[] =
     process.argv.slice(2).length > 0 ? process.argv.slice(2) : DEFAULT_COUNTRIES;
   const countryList = onlyCountries.join(', ');

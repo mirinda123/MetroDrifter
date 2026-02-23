@@ -8,7 +8,8 @@
     "build": "tsc --noEmit && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "download-data": "tsx scripts/download-data.ts"
+    "download-data": "tsx scripts/download-data.ts && tsx scripts/add-city-to-lines.ts",
+    "add-city-to-lines": "tsx scripts/add-city-to-lines.ts"
   },
   "dependencies": {
     "@heroui/react": "beta",

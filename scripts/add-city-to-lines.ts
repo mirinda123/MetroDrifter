@@ -200,6 +200,7 @@ function processFile(filePath: string, countryKey: string): void {
 }
 
 function main(): void {
+  console.log('Adding city information for metro lines');
   if (!fs.existsSync(LINES_DIR)) {
     console.error('Not found: ' + LINES_DIR);
     process.exit(1);
